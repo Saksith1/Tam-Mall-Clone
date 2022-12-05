@@ -1,5 +1,5 @@
 :root {
-  --blue: #007bff;
+  --blue: #00b3ff;
   --light-blue: #00b3ff;
   --green:#28a745;
   --red:#ff3737;
@@ -31,6 +31,7 @@ li {
 }
 a {
   text-decoration: none;
+  color: var(--body-color);
 }
 div {
    box-sizing: border-box;

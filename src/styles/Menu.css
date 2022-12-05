@@ -1,0 +1,24 @@
+.menu{
+    background-color: var(--blue);
+    width: 100%;
+    height: 60px;
+}
+.menu li{
+    display: inline;
+    height: 60px;
+}
+.menu li a{
+    display: inline-block;
+    width: fit-content;
+    height: 60px !important;
+    line-height: 60px;
+    color: white ;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+.menu li a i{
+    margin-right: 2px;
+}
+.menu li a:hover {
+    background-color: orange;
+}

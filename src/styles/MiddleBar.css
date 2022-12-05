@@ -1,0 +1,72 @@
+.middle-bar{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 320px;
+}
+.search-bar{
+    width: 550px;
+    height: 50px;
+    border: 0.5px solid var(--body-color);
+    border-radius: 25px 0px 25px 0px;
+}
+.search-bar .drop-down{
+    width: 150px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-right: 0.5px solid var(--body-color);
+    position: relative;
+}
+.search-bar .drop-down .drop-list{
+    position: absolute;
+    width: fit-content;
+    background-color: white;
+    border: 0.5px solid rgb(225, 225, 225);
+    display: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+.search-bar .drop-down .drop-list li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 20px;
+}
+.search-bar .drop-down .drop-list li:hover {
+    color: white;
+    background-color: var(--light-blue);
+}
+.search-bar .drop-down i{
+    margin-left: 10px;
+}
+.search-bar input{
+    width: calc(100% - 200px);
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+}
+.search-bar .search-icon{
+    width: 50px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.middle-bar .contact li{
+    display: inline-block;
+    
+}
+.middle-bar  .contact li i{
+    display: block;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.search-bar .drop-down:hover > .drop-list {
+    display: block;
+    opacity: 1;
+}
